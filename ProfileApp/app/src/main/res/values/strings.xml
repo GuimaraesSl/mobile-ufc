@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">ProfileApp</string>
+    <string name="user_description">
+        Formado como técnico em Redes de Computadores no IFTO onde
+        trabalhou com desenvolvimento mobile e web React em pesquisas para
+        inovação no Agro e na comunidade acadêmica da região. Atualmente
+        atua na empresa Vetta Digital onde trabalha como full-stack em um
+        sistema de desenvolvimento e gerenciamento de software com React,
+        TS, C# e Node.
+    </string>
+    <string name="user_job">Emprego Atual: Desenvolvedor Fullstack</string>
+    <string name="user_name">Gabriel Al-Samir Guimarães Sales</string>
+</resources>
