@@ -27,7 +27,6 @@
             android:id="@+id/nameText"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/user_name"
             android:textSize="24sp"
             android:layout_gravity="center_horizontal"
             android:paddingTop="8dp" />
@@ -36,7 +35,6 @@
             android:id="@+id/descriptionText"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/user_description"
             android:textSize="16sp"
             android:paddingTop="4dp"
             android:justificationMode="inter_word" />
@@ -45,7 +43,6 @@
             android:id="@+id/currentJobText"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/user_job"
             android:textSize="16sp"
             android:paddingTop="8dp" />
 
@@ -54,44 +51,8 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="vertical"
-            android:paddingTop="16dp">
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Experiências Anteriores:"
-                android:textSize="18sp"
-                android:paddingBottom="8dp" />
-
-            <!-- Experiências -->
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Estagiário Desenvolvedor Fullstack\nVetta · Estágio\nfev de 2023 - o momento · 1 ano 10 meses\nBelo Horizonte, MG · Remoto"
-                android:textSize="14sp"
-                android:paddingTop="4dp" />
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Monitor Bolsista Grupo de Estudos para a Maratona de Programação (GEMP)\nUniversidade Federal do Ceará\nmar de 2022 - dez de 2022 · 10 meses\nQuixadá, CE · Presencial"
-                android:textSize="14sp"
-                android:paddingTop="8dp" />
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Gerente e Desenvolvedor\nTheBug Enterprise\njul de 2019 - nov de 2022 · 3 anos 5 meses\nRemoto"
-                android:textSize="14sp"
-                android:paddingTop="8dp" />
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Técnico em Redes de Computadores\nDataNet Informática e Telecom - Provedor de Internet\njul de 2019 - ago de 2019 · 2 meses\nTocantinópolis, TO"
-                android:textSize="14sp"
-                android:paddingTop="8dp" />
+            android:paddingTop="16dp"
+            >
         </LinearLayout>
 
     </LinearLayout>
