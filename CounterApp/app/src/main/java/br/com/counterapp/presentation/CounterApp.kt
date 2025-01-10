@@ -40,7 +40,7 @@ fun CounterApp() {
             text = "CounterApp",
             fontSize = 34.sp,
             modifier = Modifier.padding(8.dp)
-        )
+        )å
 
         Text(
             text = "Resultado: $result",

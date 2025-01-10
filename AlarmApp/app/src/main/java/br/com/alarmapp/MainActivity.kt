@@ -26,10 +26,8 @@ class MainActivity : ComponentActivity() {
     private val requestPermissionLauncher =
         registerForActivityResult(ActivityResultContracts.RequestPermission()) { granted ->
             if (granted) {
-                // Permissão concedida, você pode mostrar notificações
                 Toast.makeText(this, "Permissão para notificações concedida", Toast.LENGTH_SHORT).show()
             } else {
-                // Permissão negada, você pode explicar a necessidade da permissão
                 Toast.makeText(this, "Permissão para notificações negada", Toast.LENGTH_SHORT).show()
             }
         }
@@ -37,11 +35,9 @@ class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
 
-        // Solicitar permissão POST_NOTIFICATIONS, se necessário
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.TIRAMISU) {
             if (ContextCompat.checkSelfPermission(this, Manifest.permission.POST_NOTIFICATIONS)
                 != PackageManager.PERMISSION_GRANTED) {
-                // Solicita a permissão
                 requestPermissionLauncher.launch(Manifest.permission.POST_NOTIFICATIONS)
             }
         }

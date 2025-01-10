@@ -29,9 +29,6 @@ object UtilsFunctions {
             set(Calendar.DAY_OF_YEAR, get(Calendar.DAY_OF_YEAR))
             set(Calendar.YEAR, get(Calendar.YEAR))
 
-            Log.d("Calendar", Calendar.DAY_OF_YEAR.toString())
-            Log.d("Calendar", Calendar.YEAR.toString())
-
             if (timeInMillis <= System.currentTimeMillis()) {
                 add(Calendar.DAY_OF_YEAR, 1)
             }
